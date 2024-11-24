@@ -11,7 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        grey:"#f7f7f7"
       },
+    },
+    screens: {
+      sm: '488px', // Add a custom breakpoint for 488px
+      
     },
   },
   plugins: [],

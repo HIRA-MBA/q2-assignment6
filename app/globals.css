@@ -1,27 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ponnala&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', var(--font-geist-sans), sans-serif;
+  }
+
+
+  .icon{
+    display: block;
+  }
+  @media(min-width:488px){
+    .icon{visibility: hidden !important;}
+  }
+
+  .head{
+    display: block;
+  }
+  @media(max-width:488px){
+    .head{visibility: hidden !important;}
+  }
+
+.cont {display: block;}
+
+@media(max-width:488px){
+  
+  .cont{visibility: hidden ! important } ;
+
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.achieve{
+  display: block;
 }
+@media(max-width:488px){
+ 
+  .achieve{visibility: hidden !important;};
+  
+}
+
+.art{display: block;}
+@media(max-width:488px)
+{.art{visibility: hidden ! important;}}
+
+.law{display: block;}
+@media(max-width:488px)
+{.law{visibility: hidden ! important;}}
+
+.tech{display: block;}
+@media(max-width:488px)
+{.tech{visibility: hidden ! important;}}
+
+.mob{display: block;}
+@media(min-width:488px)
+{.mob{visibility: hidden ! important;}}
+
+.tab{display: block;}
+@media(max-width:488px)
+{.tab{visibility: hidden ! important;}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+
+
+   
+    
+
+    
+
+
+
+  
+
